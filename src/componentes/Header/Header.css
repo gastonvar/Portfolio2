@@ -18,6 +18,7 @@ header {
     padding: 0;
     margin: 0;
     width: 100% !important;
+
   }
   header nav ul li a{
     color: var(--colorSecundario);
@@ -26,6 +27,8 @@ header {
     border-radius: 15px;
     transition: all .3s;
   }
+
+  
   header nav ul li a:not(.githublogo):not(.linkedinlogo):not(.curriculumButton){
     box-shadow: -3px 3px var(--colorSecundario);
   }
@@ -37,9 +40,7 @@ header {
     background-color: var(--colorSecundario);
   }
 
-  header nav ul li{
-    margin-top: 15px;
-  }
+
 
   .curriculumButton{
     margin-left: 20px;
@@ -76,3 +77,5 @@ header {
     background-image: url('/sprites/linkedinlogo_alt.png');
     background-color: var(--colorPrincipal);
   }
+
+  

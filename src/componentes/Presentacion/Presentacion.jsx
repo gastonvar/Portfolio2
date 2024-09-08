@@ -3,7 +3,7 @@ import './Presentacion.css';
 
 const Presentacion = () => {
   return (
-    <div className='presentacion_div col-12 mt-0'>
+    <div className='presentacion_div col-12 mt-5 mt-lg-0'>
       <aux id="sobreMi"></aux>
       <section className="row justify-content-center align-items-center mb-5">
         <figure className="text-center d-none d-lg-block col-lg-2 bracketopen">
@@ -23,7 +23,7 @@ const Presentacion = () => {
         <figure className="text-center d-none d-lg-block col-lg-2 bracketopen">
           <img src="./sprites/close-bracket.png" alt="Close Bracket" className="img-fluid" />
         </figure>
-        <div className="row w-50 align-items-center">
+        <div className="row w-50 col-12 align-items-center">
           <article className="col-12 col-lg-6 text-center articulos_secundarios">
             <h2 className="text-center">Idiomas</h2>
             <p className="text-start">Español - Nativo</p>
@@ -32,10 +32,21 @@ const Presentacion = () => {
             </p>
           </article>
           <article className="col-12 col-lg-6 mt-5 mt-lg-0 articulos_secundarios">
-            <h2 className="text-center">Tecnologías conocidas</h2>
-            <p className="text-center"><span className='info-tag'>CSS/bootstrap</span><span className='info-tag'>C#/.net</span><span className='info-tag'>JS</span> <span className='info-tag'>SQL</span></p>
-            <p className='text-center'><span className='info-tag'>Java</span><span className='info-tag'>MongoDB</span><span className='info-tag'>HTML</span><span className='info-tag'>REACT</span></p>
-          </article>
+  <h2 className="text-center">Tecnologías conocidas</h2>
+  <ul className="text-center list-inline">
+    <li className='info-tag list-inline-item'>CSS/bootstrap</li>
+    <li className='info-tag list-inline-item'>C#/.net</li>
+    <li className='info-tag list-inline-item'>JS</li>
+    <li className='info-tag list-inline-item'>SQL</li>
+  </ul>
+  <ul className='text-center list-inline'>
+    <li className='info-tag list-inline-item'>Java</li>
+    <li className='info-tag list-inline-item'>MongoDB</li>
+    <li className='info-tag list-inline-item'>HTML</li>
+    <li className='info-tag list-inline-item'>REACT</li>
+  </ul>
+</article>
+
         </div>
       </section>
       
