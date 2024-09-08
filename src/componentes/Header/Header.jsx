@@ -15,7 +15,7 @@ const Header = () => {
             <li className="list-inline-item"><a href="#proyectos" className="text-decoration-none">Proyectos</a></li>
             <li className="list-inline-item"><a href="#estudios" className="text-decoration-none">Estudios</a></li>
             <li className="list-inline-item"><a href="#contacto" className="text-decoration-none">Contacto</a></li>
-            <li className="list-inline-item"><a href="Portfolio2/Escolaridad/Escolaridad.png" target="_blank" className="text-decoration-none">Escolaridad</a></li>
+            <li className="list-inline-item"><a href="./Escolaridad/Escolaridad.png" target="_blank" className="text-decoration-none">Escolaridad</a></li>
         </ul>
     </nav>
 </header>
