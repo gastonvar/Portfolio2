@@ -2,18 +2,18 @@ import React, { useEffect, useRef, useState } from 'react';
 import './Robot.css';
 
 const Robot = () => {
-  const [robotSrc, setRobotSrc] = useState('/sprites/robot.png');
+  const [robotSrc, setRobotSrc] = useState('./sprites/robot.png');
   const robotRef = useRef(null);
   const anchorRef = useRef(null);
   const eyesRef = useRef([]);
 
 
   const handleMouseEnter = () => {
-    setRobotSrc('/sprites/robot.png'); 
+    setRobotSrc('./sprites/robot.png'); 
   };
 
   const handleMouseLeave = () => {
-    setRobotSrc('/sprites/robot.png'); 
+    setRobotSrc('./sprites/robot.png'); 
   };
   useEffect(() => {
     const handleMouseMove = (e) => {
