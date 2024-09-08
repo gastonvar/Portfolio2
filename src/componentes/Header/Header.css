@@ -1,81 +1,84 @@
-
 header {
-    background-color: var(--colorFondoArticulos);
-    text-align: start;
-    width: 101% !important;
-    max-width: none !important;
-    height: 100px;
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 1000;
-    padding: 15px !important;
-    padding-bottom: 15px;
+  background-color: var(--colorFondoArticulos);
+  text-align: start;
+  width: 101% !important;
+  max-width: none !important;
+  height: 100px;
+  position: relative;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+  padding: 15px !important;
+  padding-bottom: 15px;
+}
 
+@media (min-width: 720px) {
+  header {
+      position: fixed;
   }
-  header nav{
-    padding: 0;
-    margin: 0;
-    width: 100% !important;
+}
 
-  }
-  header nav ul li a{
-    color: var(--colorSecundario);
-    padding: 15px;
-    background-color: var(--colorPrincipal);
-    border-radius: 15px;
-    transition: all .3s;
-  }
+header nav {
+  padding: 0;
+  margin: 0;
+  width: 100% !important;
+}
 
-  
-  header nav ul li a:not(.githublogo):not(.linkedinlogo):not(.curriculumButton){
-    box-shadow: -3px 3px var(--colorSecundario);
-  }
-  header nav ul li a:not(.githublogo):not(.linkedinlogo):not(.curriculumButton):hover{
-    box-shadow: 0 0;
-  }
-  header nav ul li a:hover{
-    color:black;
-    background-color: var(--colorSecundario);
-  }
+header nav ul li a {
+  color: var(--colorSecundario);
+  padding: 15px;
+  background-color: var(--colorPrincipal);
+  border-radius: 15px;
+  transition: all .3s;
+}
 
+header nav ul li a:not(.githublogo):not(.linkedinlogo):not(.curriculumButton) {
+  box-shadow: -3px 3px var(--colorSecundario);
+}
 
+header nav ul li a:not(.githublogo):not(.linkedinlogo):not(.curriculumButton):hover {
+  box-shadow: 0 0;
+}
 
-  .curriculumButton{
-    margin-left: 20px;
-    background-color: var(--colorSecundario);
-    color: black;
-  }
+header nav ul li a:hover {
+  color: black;
+  background-color: var(--colorSecundario);
+}
 
-  .curriculumButton:hover{
-    background-color: var(--colorPrincipal);
-    color: var(--colorSecundario);
-  }
+.curriculumButton {
+  margin-left: 20px;
+  background-color: var(--colorSecundario);
+  color: black;
+}
 
-  .githublogo {
-    background-image: url('/sprites/githublogo.png');
-    background-size: cover;
-    display: block;
-    width: 50px;
-    height: 50px;
-  }
+.curriculumButton:hover {
+  background-color: var(--colorPrincipal);
+  color: var(--colorSecundario);
+}
 
-  .githublogo:hover{
-    background-image: url('/sprites/githublogo_alt.png');
-    background-color: var(--colorPrincipal);
-  }
-  .linkedinlogo {
-    background-image: url('/sprites/linkedinlogo.png');
-    background-size: cover;
-    display: block;
-    width: 50px;
-    height: 50px;
-  }
+.githublogo {
+  background-image: url('/sprites/githublogo.png');
+  background-size: cover;
+  display: block;
+  width: 50px;
+  height: 50px;
+}
 
-  .linkedinlogo:hover{
-    background-image: url('/sprites/linkedinlogo_alt.png');
-    background-color: var(--colorPrincipal);
-  }
+.githublogo:hover {
+  background-image: url('/sprites/githublogo_alt.png');
+  background-color: var(--colorPrincipal);
+}
 
-  
+.linkedinlogo {
+  background-image: url('/sprites/linkedinlogo.png');
+  background-size: cover;
+  display: block;
+  width: 50px;
+  height: 50px;
+}
+
+.linkedinlogo:hover {
+  background-image: url('/sprites/linkedinlogo_alt.png');
+  background-color: var(--colorPrincipal);
+}
