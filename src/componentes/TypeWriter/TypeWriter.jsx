@@ -40,7 +40,7 @@ const TypeWriter = () => {
 
   return (
     <div className='typewriter-container col-12'>
-      <p className='typewriter-text'>
+      <p className='typewriter-text d-none d-lg-block'>
         Quiero <span className='typewriter-span'>{text}</span>
         <span className='cursor'></span>
       </p>

@@ -12,11 +12,12 @@ header {
     z-index: 1000;
     padding: 15px !important;
     padding-bottom: 15px;
-    
+
   }
   header nav{
     padding: 0;
     margin: 0;
+    width: 100% !important;
   }
   header nav ul li a{
     color: var(--colorSecundario);
