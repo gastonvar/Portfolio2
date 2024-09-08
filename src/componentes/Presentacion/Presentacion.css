@@ -1,0 +1,90 @@
+section:nth-of-type(1){
+    text-align: left;
+    width: 100%;
+}
+
+.curriculumButton{
+    padding: 10px;
+    border-radius: 15px;
+    transition: all .3s;
+    background-color: var(--colorSecundario);
+    color: black;
+}
+.curriculumButton:hover{
+    background-color: var(--colorPrincipal);
+    color: var(--colorSecundario);
+  }
+
+section:nth-of-type(1) h3{
+    color: var(--colorSecundario);
+    }
+    section:nth-of-type(1) h1{
+    font-size: 50px;
+    color: white;
+    }
+    section:nth-of-type(1) h3{
+        font-size: 18px;
+    }
+    section:nth-of-type(1) p{
+        color: gray;
+    }
+    
+    .ORT{
+        color: var(--colorRojo);
+    }
+    section:nth-of-type(1) div:not(.accordion-item){
+    background-color: var(--colorFondoArticulos);
+    border-radius: 18px;
+    padding: 18px;
+    }
+    
+    section:nth-of-type(1) .bracketopen:nth-of-type(1){
+        position: relative;
+    left: -5%;
+    animation: EntradaIzq2 1.2s linear forwards;
+    }
+    section:nth-of-type(1) .bracketopen:nth-of-type(2){
+        position: relative;
+    right: -5%;
+    animation: EntradaDer2 1.2s linear forwards;
+    }
+    
+    @keyframes EntradaIzq2{
+        0%{
+            left:-10%;
+            opacity: 0;
+        }
+        100%{
+            left: 0;
+            opacity: 1;
+        }
+    }
+    @keyframes EntradaDer2{
+        0%{
+            right:-10%;
+            opacity: 0;
+        }
+        100%{
+            right: 0;
+            opacity: 1;
+        }
+    }
+
+    section:nth-of-type(1) h2{
+        color: white;
+    }
+
+    .info-tag{
+        background-color: gray;
+        border-radius: 10px;
+        padding: 5px;
+        margin: 5px;
+        color: black;
+        font-weight: 300;
+        transition: all .3s;
+    }
+
+    .info-tag:hover{
+        background-color: var(--colorSecundario);
+        color: black;
+    }

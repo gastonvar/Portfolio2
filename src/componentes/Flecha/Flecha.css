@@ -1,0 +1,19 @@
+#flecha {
+    text-align: center;
+    width: 100px;
+    transform: rotate(180deg); 
+    animation: moverFlecha 2s ease-in-out infinite;
+    cursor: pointer;
+}
+
+@keyframes moverFlecha {
+    0% {
+        transform: rotate(180deg) translateY(0);
+    }
+    50% {
+        transform: rotate(180deg) translateY(-10px); 
+    }
+    100% {
+        transform: rotate(180deg) translateY(0);
+    }
+}
