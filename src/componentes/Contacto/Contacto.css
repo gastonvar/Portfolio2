@@ -27,3 +27,8 @@ form button[type="submit"] {
     text-align: start;
 }
 
+@media (max-width: 640px) {
+    .contacto {
+      margin-top: 200px !important;
+    }
+  }

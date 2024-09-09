@@ -1,6 +1,10 @@
-.proyectos_div{
-    margin-top: 100px;
-}
+
+@media (max-width: 640px) {
+    .proyectos_div {
+      margin-top: 500px !important;
+    }
+  }
+  
 .accordion-button, .accordion-item{
     background-color: var(--colorPrincipal);
     color: white;
@@ -98,3 +102,4 @@ background-position: 0 0;
     margin: 41%;
     padding: 2px;
 }
+
