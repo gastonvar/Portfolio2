@@ -1,6 +1,8 @@
 .estudios{
     color: white;
     text-align: start;
+    height: 50vh;
+    margin-bottom: 50px;
 }
 .estudios h4{
     color: gray;

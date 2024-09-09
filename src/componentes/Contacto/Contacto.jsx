@@ -77,7 +77,7 @@ const Contacto = () => {
   };
 
   return (
-    <section className="row my-5 justify-content-center container-fluid contacto">
+    <section className="row my-5 justify-content-center container-fluid contacto mt-5">
       <aux id="contacto"></aux>
       <h2 className="col-12 text-center">Contacto</h2>
       <p className="col-12 text-center">* Campo requerido</p>

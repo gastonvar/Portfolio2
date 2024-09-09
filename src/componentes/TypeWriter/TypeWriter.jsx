@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './TypeWriter.css';
 
 const TypeWriter = () => {
-  const words = [' Aprender', ' Crecer', ' Estudiar', ' Innovar'];
+  const words = [' Aprender', ' Crecer', ' Estudiar', ' Innovar', 'Desarrollar', 'Trabajar', 'Colaborar', 'Compartir', 'Invesrigar', 'Programar'];
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
   const [text, setText] = useState('');
   const [isDeleting, setIsDeleting] = useState(false);
@@ -40,7 +40,7 @@ const TypeWriter = () => {
 
   return (
     <div className='typewriter-container col-12'>
-      <p className='typewriter-text d-none d-lg-block'>
+      <p className='typewriter-text'>
         Quiero <span className='typewriter-span'>{text}</span>
         <span className='cursor'></span>
       </p>

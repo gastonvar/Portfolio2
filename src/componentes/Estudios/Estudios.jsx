@@ -3,7 +3,7 @@ import './Estudios.css'
 
 const Estudios = () => {
   return (
-    <section className="row justify-content-center estudios">
+    <section className="row justify-content-center estudios mb-5">
       <aux id="estudios"></aux>
     <h2 className="col-12 text-center">Estudios</h2>
     <article className="col-12 col-md-8 mb-0">
@@ -15,7 +15,7 @@ const Estudios = () => {
     </figure>
     <article className="col-12 col-md-8 mb-0">
       <h4>2022-2022</h4>
-        <p>Ingeniería en sistemas - <span className="FING">Facultad de ingeniería UDELAR</span> - <span>Montevideo </span> <span className="text-decoration-underline RETOMAR">(a retomar)</span></p>
+        <p>Ingeniería en sistemas - <span className="FING">Facultad de ingeniería UDELAR</span> - <span>Montevideo </span></p>
     </article>
     <figure className="col-12 text-center">
       <img src="./sprites/arrow.png" alt=""></img>

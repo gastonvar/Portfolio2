@@ -1,10 +1,9 @@
 import React from 'react';
 import './Presentacion.css';
-
+import Flecha from '../Flecha/Flecha.jsx';
 const Presentacion = () => {
   return (
     <div className='presentacion_div col-12 mt-5 mt-lg-0'>
-      <aux id="sobreMi"></aux>
       <section className="row justify-content-center align-items-center mb-5">
         <figure className="text-center d-none d-lg-block col-lg-2 bracketopen">
           <img src="./sprites/open-bracket.png" alt="Open Bracket" className="img-fluid" />
@@ -49,7 +48,7 @@ const Presentacion = () => {
 
         </div>
       </section>
-      
+      <Flecha id="proyectos"></Flecha>
     </div>
   );
 };

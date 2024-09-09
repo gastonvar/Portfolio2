@@ -1,28 +1,38 @@
 .typewriter-container {
-    width: 50%;
-    color: white;
-    opacity: 0;
-    animation: fadein 2s forwards;
-  }
-  
-  .typewriter-text {
-    font-size: 5em;
-    letter-spacing: 10px;
-    font-family: monospace;
-    white-space: nowrap;
-    overflow: hidden;
-  }
-  
-  .cursor {
-    border-right: white 5px solid;
-    animation: blink 1s step-end infinite;
-  }
-  
-  @keyframes blink {
-    50% { border-color: transparent; }
-  }
-  
+  width: 100%; 
+  color: white;
+  opacity: 0;
+  animation: fadein 2s forwards;
+  display: flex;
+  justify-content: center; 
+}
+
+.typewriter-text {
+  font-size: 5vw; 
+  letter-spacing: 0.2em; 
+  font-family: monospace;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.cursor {
+  border-right: 0.1em solid white; 
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
+}
+
 @keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+
+@media (max-width: 767px) {
+  .typewriter-text {
+    font-size: 7vw; 
+    letter-spacing: 0.1em; 
+  }
 }

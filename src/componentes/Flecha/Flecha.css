@@ -4,6 +4,7 @@
     transform: rotate(180deg); 
     animation: moverFlecha 2s ease-in-out infinite;
     cursor: pointer;
+    margin: auto auto;
 }
 
 @keyframes moverFlecha {

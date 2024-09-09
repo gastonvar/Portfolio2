@@ -1,4 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
+import TypeWriter from '../TypeWriter/TypeWriter';
+import Flecha from '../Flecha/Flecha';
+
 import './Robot.css';
 
 const Robot = () => {
@@ -58,8 +61,8 @@ const Robot = () => {
   }, []);
 
   return (
-    <div className='robotdiv col-12 mt-5 mb-0'>
-    <figure className="text-center htmlopen d-none d-lg-block">
+    <div className='robotdiv col-12 mt-5 mb-0 row'>
+    <figure className="text-center htmlopen">
         <img src="./sprites/html_open.png" alt="" className="img-fluid"></img>
       </figure>
     <div className="robot row my-0 py-0" id="eyes" ref={robotRef}
@@ -71,27 +74,32 @@ const Robot = () => {
             id="anchor"
             src={robotSrc}
             alt="Robot"
-            className="d-none d-lg-block"
+            className=""
           />
           <img
             ref={(el) => (eyesRef.current[0] = el)}
             src="./sprites/ojo.png"
-            className="eye d-none d-lg-block"
+            className="eye "
             style={{ top: '38px', left: '51px' }}
             alt="Ojo"
           />
           <img
             ref={(el) => (eyesRef.current[1] = el)}
             src="./sprites/ojo.png"
-            className="eye d-none d-lg-block"
+            className="eye "
             style={{ top: '38px', left: '119px' }}
             alt="Ojo"
           />
         </figure>
       </div>
-      <figure className="text-center htmlopen d-none d-lg-block">
+      <figure className="text-center htmlopen">
         <img src="./sprites/html_closed.png" alt="" className="img-fluid"></img>
       </figure>
+      <div className='col-12 row'>
+      <TypeWriter></TypeWriter>
+      </div>
+      <aux id="sobreMi"></aux>
+      <Flecha id={"sobreMi"}></Flecha>
     </div>
   );
 };

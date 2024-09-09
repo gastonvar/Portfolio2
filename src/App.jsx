@@ -9,7 +9,7 @@ import Robot from './componentes/Robot/Robot'
 import Footer from './componentes/Footer/Footer'
 import Waves from './componentes/Waves/Waves'
 import Flecha from './componentes/Flecha/Flecha'
-import TypeWriter from './componentes/TypeWriter/TypeWriter'
+
 
 function App() {
 
@@ -18,9 +18,7 @@ function App() {
     <div className='row mt-5 justify-content-center'>
     <Header></Header>
     <Robot></Robot>
-    <TypeWriter></TypeWriter>
     <Presentacion></Presentacion>
-    <Flecha id="proyectos"></Flecha>
     <Proyectos></Proyectos>
     <Estudios></Estudios>
     <Flecha id="contacto"></Flecha>

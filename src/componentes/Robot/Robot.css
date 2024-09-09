@@ -39,6 +39,7 @@ animation-delay: 0.2s;
     display: flex; 
     justify-content: center; 
     align-items: center; 
+    height: 100vh;
 }
 
 
@@ -54,11 +55,7 @@ animation-delay: 0.2s;
 .robot.show{
     opacity: 1;
 }
-@media (max-width: 991px) {
-    .robot {
-        display: none; 
-    }
-}
+
 .robot figure{
     margin-bottom: 0;
     padding: 0;
@@ -74,3 +71,12 @@ position: absolute;
     width: 200px;
     position: absolute;
 }
+
+.robotdiv {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+}
+
+
