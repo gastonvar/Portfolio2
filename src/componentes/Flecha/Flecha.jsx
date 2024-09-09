@@ -10,7 +10,7 @@ const Flecha = ({ id }) => {
   };
 
   return (
-    <div id='flecha' onClick={handleScroll}>
+    <div id='flecha' onClick={handleScroll} className='d-none d-md-block'>
       <img src="./sprites/arrow.png" alt="Flecha para bajar" className='img-fluid' />
     </div>
   );

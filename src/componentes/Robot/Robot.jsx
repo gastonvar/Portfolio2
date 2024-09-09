@@ -62,7 +62,7 @@ const Robot = () => {
 
   return (
     <div className='robotdiv col-12 mt-5 mb-0 row'>
-    <figure className="text-center htmlopen">
+    <figure className="text-center htmlopen d-none d-lg-block">
         <img src="./sprites/html_open.png" alt="" className="img-fluid"></img>
       </figure>
     <div className="robot row my-0 py-0" id="eyes" ref={robotRef}
@@ -92,7 +92,7 @@ const Robot = () => {
           />
         </figure>
       </div>
-      <figure className="text-center htmlopen">
+      <figure className="text-center htmlopen d-none d-lg-block">
         <img src="./sprites/html_closed.png" alt="" className="img-fluid"></img>
       </figure>
       <div className='col-12 row'>
